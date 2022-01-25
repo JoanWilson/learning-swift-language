@@ -73,6 +73,7 @@ repeat {
             print(balanceMsg, balance)
         case 0:
             print("Good Bye!")
+            abort()
         default:
             print("Invalid operation number!")
 
